@@ -12,11 +12,11 @@ class OrderOptionDate extends React.Component {
     this.handleChange = this.handleChange.bind(this);
   }
 
-  handleChange(date) {
+  handleChange = date => {
     this.setState({
       startDate: date,
     });
-  }
+  };
 
   render() {
     return (
